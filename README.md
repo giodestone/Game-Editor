@@ -1,4 +1,4 @@
-# Game Editor Extensions
+# Game World Editor
 ![Camera Preview Moving](https://raw.githubusercontent.com/giodestone/Game-Editor/main/Images/GIF1.gif)
 
 A game editor, [WFFC edit](https://github.com/savantguarde/WFFC-Edit), which is heavily based on Blizzards WOW editor, was extended to include a Unity style properties window (involving a bit of UI/UX design) as well as general improvements to code and code quality. This project was performed for a university coursework. Coded using C++ with the Microsoft Foundation Class (MFC) Library while interfacing with an SQLite (SQL) database.
