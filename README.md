@@ -1,13 +1,13 @@
 # Game Editor Extensions
-![Camera Preview Moving](TODO)
+![Camera Preview Moving](https://raw.githubusercontent.com/giodestone/Game-Editor/main/Images/GIF1.gif)
 
-A game editor, WFFC edit, which is heavily based on Blizzards existing editor, was extended to include a Unity style properties window (involving a bit of UI/UX design) as well as general improvements to code and code quality. This project was performed for a university coursework. Coded using C++ with the Microsoft Foundation Class (MFC) Library while interfacing with an SQLite (SQL) database.
+A game editor, [WFFC edit](https://github.com/savantguarde/WFFC-Edit), which is heavily based on Blizzards WOW editor, was extended to include a Unity style properties window (involving a bit of UI/UX design) as well as general improvements to code and code quality. This project was performed for a university coursework. Coded using C++ with the Microsoft Foundation Class (MFC) Library while interfacing with an SQLite (SQL) database.
 
 ## Running
-Unfortunately, due to the way the provided project was set up, generating a standalone executable is not supported. To get this project running you must use Visual Studio with VC141 (2017) to run (2019 won't work). The project can be easily downloaded as zip [here](TODO)
+Unfortunately, due to the way the provided project was set up, generating a standalone executable is not supported. To get this project running you must use Visual Studio with VC141 (2017) to run (2019 won't work). The project can be easily downloaded as zip [here](https://github.com/giodestone/Game-Editor/archive/refs/heads/main.zip)
 
 ## Application Architecture
-![A scene object's properties are being updated.](TODO)
+![A scene object's properties are being updated.](https://raw.githubusercontent.com/giodestone/Game-Editor/main/Images/GIF2.gif)
 The application is backed by an SQLite database where all of the information regarding the chunks and objects in the game is stored (each object has over 40 columns). The terrain data is represented by the `ChunkObject` class, and the game object data by the `SceneObject` class. Their rendering classes are represented by the `DisplayChunk` and `DisplayObject`, respectively.
 
 The `MFCFrame.h` file (`CMyFrame` class) houses the main window and its logic. The `MFCRenderFrame.h` file (`CChildRender` class) contains the renderer logic. The `MFCMain` has the callbacks for logic from the `CMyFrame` window. The `ObjectPropertiesDialog` class houses the code for the properties window (main user facing focus of the app).
@@ -15,9 +15,9 @@ The `MFCFrame.h` file (`CMyFrame` class) houses the main window and its logic. T
 MFC, by design, uses a simple object orientated inheritance hierarchy. The `ObjectPropertiesDialog` inherit from `CDialog` and `CFloatEdit` inhertis from `CEdit`
 
 ## Changes to Editor
-![Image of invalid path](TODO)
+<img src="https://raw.githubusercontent.com/giodestone/Game-Editor/main/Images/Image4.jpg" height="500">
 
-The source application can be found [here](TODO).
+The source application can be found [here](https://github.com/savantguarde/WFFC-Edit).
 
 * Addition of a Unity style object properties window.
     * Identifying features and frequently used features such as name and transform are exemplified by being placed at top.
@@ -41,5 +41,6 @@ The source application can be found [here](TODO).
 * Save icon is a save icon, not a smiley face.
 
 ## Read the Report
-<img src="TODO" height="500">
+<img src="https://raw.githubusercontent.com/giodestone/Game-Editor/main/Images/Image3.jpg" height="500">
+
 The report covers the specifics of the implementation, potential improvements, and has a UML diagram (among other things). It can be found [here](TODO).
