@@ -43,4 +43,4 @@ The source application can be found [here](https://github.com/savantguarde/WFFC-
 ## Read the Report
 <img src="https://raw.githubusercontent.com/giodestone/Game-Editor/main/Images/Image3.jpg" height="500">
 
-The report covers the specifics of the implementation, potential improvements, and has a UML diagram (among other things). It can be found [here](TODO).
+The report covers the specifics of the implementation, potential improvements, and has a UML diagram (among other things). It can be found [here](https://github.com/giodestone/Game-Editor/raw/main/Report.pdf).
