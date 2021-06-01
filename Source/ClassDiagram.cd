@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CMyFrame">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <AssociationLine Name="m_toolMain" Type="ToolMain" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.219" Y="5.415" />
+        <Point X="5.219" Y="5.875" />
+        <Point X="4.312" Y="5.875" />
+        <Point X="4.312" Y="6.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IAAAAQACAQEAAAAAAQAAACAAACAAQAEAIAAAAAAAABA=</HashCode>
+      <FileName>MFCFrame.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_DirXView" />
+      <Field Name="m_toolMain" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MFCMain">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAAAAAAAAAAAADAQAIAEAAIBAARA2AAgAAIAAAAAI=</HashCode>
+      <FileName>MFCMain.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_ToolSystem" />
+      <Field Name="m_ObjectPropertiesDialog" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CChildRender">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAIgAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>MFCRenderFrame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectDialogue" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAEAAQAAAAAAgBAAAAAAAAAAACAAAAAEQAIAAAA=</HashCode>
+      <FileName>SelectDialogue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DisplayChunk" Collapsed="true">
+    <Position X="12.5" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAgAAOABBCAgAgAhAiRAARACAACAAAUABFFQCEAhCg=</HashCode>
+      <FileName>DisplayChunk.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game" BaseTypeListCollapsed="true">
+    <Position X="9" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgYAAAgAICYyCcMGwGIBogAgAAyQGARGEpACABVYTAQ=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_camera" />
+      <Field Name="m_displayChunk" />
+      <Field Name="m_displayList" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DX::StepTimer" Collapsed="true">
+    <Position X="12.5" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACQEQAAAAQEQAABQEAIAIAAIAABQCAAgCAwBQJAAwAA=</HashCode>
+      <FileName>StepTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChunkObject" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAAAhAgAUAgAgACAEAEgAAAAAAAEIACAIAAAAACQgAA=</HashCode>
+      <FileName>ChunkObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneObject" Collapsed="true">
+    <Position X="6.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCB8hiBGDqEE2k2JCqASBCQgALCPAGBCCAAAyQKSQAA=</HashCode>
+      <FileName>SceneObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToolMain" Collapsed="true">
+    <Position X="2.75" Y="6.25" Width="2" />
+    <AssociationLine Name="selection" Type="Selection" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="6.734" />
+        <Point X="5.125" Y="6.734" />
+        <Point X="5.125" Y="6.75" />
+        <Point X="6.5" Y="6.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>EiFAICEAAADAIAQJQQQQAkAABIJEASSCIgBgBQACQBI=</HashCode>
+      <FileName>ToolMain.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="selection" />
+      <Field Name="toolInputCommands" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Camera" Collapsed="true">
+    <Position X="6.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAR2AwAQACAABQBBSQCAIgAAAAABgAAAABAAgAAAogA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFloatEdit" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAIAAAAAQAA=</HashCode>
+      <FileName>CFloatEdit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IEventDispatcher" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAIAAAAAAAAAAAAACAAEAAAAAgAAAAAA=</HashCode>
+      <FileName>IEventDispatcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IEventReciever" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAEIA=</HashCode>
+      <FileName>IEventReciever.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectPropertiesDialog" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABEAEAIAQQkRQQABA4ABBCAQEAAiiAAAQAgAEAkCA=</HashCode>
+      <FileName>ObjectPropertiesDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Selection" Collapsed="true">
+    <Position X="6.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARQAAAACAEAAAAAAQAAAAAAAQAgAAICIAEAgCACQAA=</HashCode>
+      <FileName>Selection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="std::unordered_map&lt;_Kty, _Ty, _Hasher, _Keyeq, _Alloc&gt;" Collapsed="true">
+    <Position X="12.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAAAAAAABAAACQAAAAAAAAAAEBBAAAgQAgAAAEAAA=</HashCode>
+      <FileName>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\unordered_map</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DisplayObject">
+    <Position X="12.5" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACQghCAEACAAAAEAAIBAEAgFAAAECAAAAAg=</HashCode>
+      <FileName>DisplayObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="InputCommands" Collapsed="true">
+    <Position X="3" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAgFAAAACAAAAAAAAAGAAAAAIAAAAAAAAAwAEgAQ=</HashCode>
+      <FileName>InputCommands.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
